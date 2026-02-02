@@ -23,7 +23,7 @@ jobs:
       - run: npm run assign
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          SLACK_CHANNEL_ID: ${{ secrets.MAIN_CHANNEL_ID }}
 
       # Persist updated state.json back to repo
       - name: Commit state.json
