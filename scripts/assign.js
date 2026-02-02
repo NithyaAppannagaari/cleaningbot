@@ -2,7 +2,7 @@ import fs from "fs";
 import { WebClient } from "@slack/web-api";
 
 const token = process.env.SLACK_BOT_TOKEN;
-const channel = process.env.SLACK_CHANNEL_ID;
+const channel = process.env.MAIN_CHANNEL_ID;
 
 const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
 const statePath = "state.json";
