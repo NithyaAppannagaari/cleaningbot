@@ -1,0 +1,12 @@
+{
+  "name": "cleaningbot",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@slack/web-api": "^7.0.0"
+  },
+  "scripts": {
+    "assign": "node scripts/assign.js",
+    "check": "node scripts/check.js"
+  }
+}
